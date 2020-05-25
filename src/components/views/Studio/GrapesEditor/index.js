@@ -32,8 +32,8 @@ export default function GrapesEditor(props) {
 			// As an alternative we could use: `components: '<h1>Hello World Component!</h1>'`,
 			fromElement: true,
 			assetManager: {
-				dropzone: 1,
-				dropzoneContent: '<div class="dropzone-inner"> Drop here your assets</div>',
+				// dropzone: 1,
+				// dropzoneContent: '<div class="dropzone-inner"> Drop here your assets</div>',
 				assets: [
 				 'http://placehold.it/350x250/78c5d6/fff/image1.jpg',
 				 // Pass an object with your properties
