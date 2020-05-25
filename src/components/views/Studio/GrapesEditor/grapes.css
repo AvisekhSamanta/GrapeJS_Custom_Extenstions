@@ -1,0 +1,51 @@
+.gjs-cv-canvas {
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gjs-cv-canvas__frames, .gjs-cv-canvas__frames > iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.gjs-block {
+	width: auto;
+    height: auto;
+    min-height: auto;
+}
+
+.gjs-editor{
+	height: 100%;
+}
+
+#block-container{
+	display: flex;
+	min-height: 50px;
+	max-height: 75px;
+	height: 8%;
+}
+
+.gjs-blocks-cs{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.gjs-block-label{
+	font-size: 1rem;
+}
+
+.panel__top {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	position: initial;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.panel__basic-actions {
+	position: initial;
+}
